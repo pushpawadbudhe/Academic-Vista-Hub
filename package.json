@@ -2,7 +2,7 @@
   "name": "academic-vista-hub",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://pushpawadbudhe.github.io/Academic-Vista-Hub",
+  "homepage": "https://github.com/pushpawadbudhe/Academic-Vista-Hub",
   "type": "module",
   "scripts": {
     "predeploy" : "npm run build",
