@@ -116,11 +116,11 @@
   margin-right: 0px;
 }
 
-.feedback-card {
+/* .feedback-card {
   background: transparent;
-}
+} */
 
-.feedback-card:hover {
+.feedback-card {
   background: var(--black-gradient);
 }
 
@@ -143,8 +143,9 @@
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 7px;
 }
+
 
 /* Track */
 ::-webkit-scrollbar-track {
@@ -162,3 +163,4 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #01f8c7;
 }
+

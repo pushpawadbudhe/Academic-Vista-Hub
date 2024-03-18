@@ -14,9 +14,13 @@ export const navLinks = [
     title: "Internships",
   },
   {
-    id: "clients",
-    title: "Testimonials",
+    id: "about",
+    title: "About Us",
   },
+  // {
+  //   id: "clients",
+  //   title: "Testimonials",
+  // },
   {
     id: "contact",
     title: "Contact Us",
@@ -98,23 +102,23 @@ export const footerLinks = [
     links: [
       {
         name: "Data Science",
-        link: "https://www.hoobank.com/content/",
+        link: "/product",
       },
       {
         name: "Python development",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "/product",
       },
       {
         name: "Java Development",
-        link: "https://www.hoobank.com/create/",
+        link: "/product",
       },
       {
         name: "Web Developemnt",
-        link: "https://www.hoobank.com/explore/",
+        link: "/product",
       },
       {
         name: "Android development",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "/product",
       },
     ],
   },
@@ -123,37 +127,41 @@ export const footerLinks = [
     links: [
       {
         name: "Company",
-        link: "https://www.hoobank.com/help-center/",
+        link: "/about",
       },
       {
-        name: "Privacy Policy",
-        link: "https://www.hoobank.com/partners/",
+        name: "Testimonials",
+        link: "/about",
       },
-      {
-        name: "Terms & Conditions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Shipping & Delivery",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Cancellation & Refund",
-        link: "https://www.hoobank.com/newsletters/",
-      },
+      // {
+      //   name: "Privacy Policy",
+      //   link: "https://www.hoobank.com/partners/",
+      // },
+      // {
+      //   name: "Terms & Conditions",
+      //   link: "https://www.hoobank.com/suggestions/",
+      // },
+      // {
+      //   name: "Shipping & Delivery",
+      //   link: "https://www.hoobank.com/blog/",
+      // },
+      // {
+      //   name: "Cancellation & Refund",
+      //   link: "https://www.hoobank.com/newsletters/",
+      // },
     ],
   },
   {
     title: "Contact Us",
     links: [
       {
-        name: "Email :",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Email : contact.officialacademicvista",
+        link: "mailto:officialacademicvista@gmail.com",
       },
-      {
-        name: "contact.academicvista",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
+      // {
+      //   name: "contact.academicvista",
+      //   link: "https://www.hoobank.com/become-a-partner/",
+      // },
     ],
   },
 ];
