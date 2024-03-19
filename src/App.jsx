@@ -6,15 +6,13 @@ import {
   Hero,
   Business,
   Billing,
-  Testimonials,
   CTA,
   Footer,
   Aboutus,
 } from "./components";
 import Error from "./components/Error";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Contactus from  "./components/Contactus";
-
+import Contactus from "./components/Contactus";
 
 const App = () => {
   const [scrolling, setScrolling] = useState(false);
@@ -47,15 +45,13 @@ const App = () => {
         </div>
 
         <Routes>
-          <Route index element={<Hero />} />
+          <Route path="/index.html" element={<Hero />} />
           <Route path="/home" element={<Hero />} />
           <Route path="/features" element={<Business />} />
           <Route path="/product" element={<Billing />} />
           <Route path="/about" element={<Aboutus />} />
-          {/* <Route path="/clients" element={<Testimonials />} /> */}
           <Route path="/contact" element={<Contactus />} />
           <Route path="*" element={<Error />} />
-
         </Routes>
 
         <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>

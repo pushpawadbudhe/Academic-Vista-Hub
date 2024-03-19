@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex justify-between items-center navbar">
-      <a href="/" className="logo-link">
+      <a href="/index.html" className="logo-link">
         <img src={logo} alt="Academic Vista" className="pt-3" />
       </a>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
