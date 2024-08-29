@@ -165,13 +165,13 @@
 }
 
 body, html {
-  cursor: url('curs.png'), auto;
+  cursor: url('./assets/curs.png'), auto;
 }
 
 a, button, [role="button"], input[type="submit"], input[type="button"], .clickable {
-  cursor: url('pointer.png'), pointer;
+  cursor: url('./assets/pointer.png'), pointer;
 }
 
 .cursor-pointer {
-  cursor: url('pointer.png'), pointer !important;
+  cursor: url('./assets/pointer.png'), pointer !important;
 }
