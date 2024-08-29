@@ -10,11 +10,11 @@ export const navLinks = [
   //   title: "Features",
   // },
   {
-    id: "product",
+    id: "internships",
     title: "Internships",
   },
   {
-    id: "clients",
+    id: "about",
     title: "About Us",
   },
   // {
@@ -102,21 +102,21 @@ export const footerLinks = [
     links: [
       {
         name: "Graphic Design",
-        id: "product",
+        id: "internships",
   
         
       },
       {
         name: "UI/UX Design",
-        id: "product",
+        id: "internships",
       },
       {
         name: "Web Development",
-        id: "product",
+        id: "internships",
       },
       {
         name: "Python Developemnt",
-        id: "product",
+        id: "internships",
       },
     ],
   },
@@ -125,11 +125,11 @@ export const footerLinks = [
     links: [
       {
         name: "Company",
-        id: "clients",
+        id: "about",
       },
       {
         name: "Testimonials",
-        id: "clients",
+        id: "about",
       },
     ],
   },
