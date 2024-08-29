@@ -3,7 +3,7 @@ import { arrowUp } from "../assets";
 
 const GetStarted = () => {
   const handleClick = () => {
-    const element = document.getElementById("product");
+    const element = document.getElementById("internships");
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
